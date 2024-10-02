@@ -4,8 +4,8 @@
 #define ASIZE(a)            (sizeof(a) / sizeof(a[0]))
 #define RANDOMIZE()         srand((unsigned)time(NULL))
 
-#define TRUE 1
-#define FALSE 0
+#define TRUE     1
+#define FALSE    0
 
 void my_bsort(int ar[], size_t size)
 {
