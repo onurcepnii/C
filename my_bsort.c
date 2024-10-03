@@ -60,7 +60,7 @@ int main(void){
         print_array(ar, ASIZE(ar));
 
         printf("\nPress enter for the next array.\n");
-        getchar(); // enter for next array
+        (void)getchar(); // enter for next array
     }
 
 
