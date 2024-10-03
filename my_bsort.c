@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 #define ASIZE(a)            (sizeof(a) / sizeof(a[0]))
 #define RANDOMIZE()         srand((unsigned)time(NULL))
@@ -26,6 +27,7 @@ void my_bsort(int ar[], size_t size)
             }
         }
     }while(swapped);
+    return;
 }
 
 void print_array(int ar[], size_t size)
@@ -34,6 +36,7 @@ void print_array(int ar[], size_t size)
     {
         printf("% d ", ar[i]);
     }
+    return;
 }
 
 int main(void){
