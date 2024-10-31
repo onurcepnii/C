@@ -10,5 +10,4 @@ int main() {
     else
         printf("Little Endian");
 
-    return 0;
 }
